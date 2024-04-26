@@ -721,7 +721,7 @@ class Settings(SettingsData):
             _require_core={"value": False, "preprocessor": _str_as_bool},
             _save_requirements={"value": True, "preprocessor": _str_as_bool},
             _service_wait={
-                "value": 30,
+                "value": 600,
                 "preprocessor": float,
                 "validator": self._validate__service_wait,
             },
